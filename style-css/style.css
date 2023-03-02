@@ -48,3 +48,56 @@ footer {
     margin-right: 1.875rem;
 
 }
+
+.board {
+    background-color: aquamarine;
+    width: 37.5rem;
+    height: 37.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+
+}
+
+
+
+.celle-10 {
+    border: 1px solid black;
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+}
+
+.celle-8 {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+
+}
+
+.celle-7 {
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
+
+}
+
+.colore-celle {
+
+    background-color: red;
+
+}
+
+.inputStyle {
+    border-radius: 5px;
+    border-color: #b91547;
+    border-width: 2px;
+    color: black;
+}
+
+.inputStyle.btnStyle {
+    padding: 4px 16px;
+    background-color: #c5c5c5;
+    color: #b91547;
+
+    border-color: #878787;
+}
